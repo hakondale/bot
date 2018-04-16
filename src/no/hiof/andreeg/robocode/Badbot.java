@@ -1,5 +1,6 @@
 package no.hiof.andreeg.robocode;
 
+import robocode.HitWallEvent;
 import robocode.Robot;
 
 public class Badbot extends Robot {
@@ -10,5 +11,10 @@ public class Badbot extends Robot {
             ahead(100);
             turnRadarLeft(25);
         }
+    }
+
+    @Override
+    public void onHitWall(HitWallEvent event) {
+        System.out.println("hit wall");
     }
 }
