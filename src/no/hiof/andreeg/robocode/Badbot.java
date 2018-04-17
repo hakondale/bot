@@ -2,13 +2,12 @@ package no.hiof.andreeg.robocode;
 
 import robocode.AdvancedRobot;
 import robocode.HitWallEvent;
-import robocode.Robot;
 import robocode.ScannedRobotEvent;
 import robocode.*;
 import java.util.Random;
 
 public class Badbot extends AdvancedRobot {
-
+    //håkon var her
     /**
      * Main method of the robot
      */
